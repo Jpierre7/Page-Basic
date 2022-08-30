@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: cadetblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.control-group{
+    padding-bottom: 10px;
+}
+
+input{
+    width: 250px;
+    height: 58px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: skyblue;
+    text-align: center;
+}
+
+.link-page {
+    text-decoration: none;
+    color: skyblue;
+    font-size: 14px;
+}
+
+.btn-chat{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: skyblue;
+    background: skyblue;
+    color: white;
+}
+
+h1{
+    color: skyblue;
+}
+
+
